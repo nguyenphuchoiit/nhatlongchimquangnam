@@ -2,7 +2,7 @@
 const product = {
     image: "images/products/product-3.jpg",
     name: "Lồng chim hút mật nhật Quảng Nam",
-    price: 1499.00
+    price: 1499.000
 };
 
 // Khởi tạo giỏ hàng từ localStorage hoặc một mảng trống nếu chưa có giỏ hàng
@@ -22,7 +22,7 @@ function updateProductInfo(product) {
         productName.textContent = product.name;
     }
     if (productPrice) {
-        productPrice.textContent = `$${product.price.toFixed(2)}`;
+        productPrice.textContent = `₫${product.price.toFixed(3)}`;
     }
 }
 
@@ -52,7 +52,7 @@ function displayCart() {
 
         // Tạo phần tử tên, giá và số lượng sản phẩm
         const productInfo = document.createElement('span');
-        productInfo.textContent = `${item.name} - $${item.price.toFixed(2)} x ${item.quantity}`;
+        productInfo.textContent = `${item.name} - ₫${item.price.toFixed(3)} x ${item.quantity}`;
         productInfo.style.marginRight = "10px"; // Khoảng cách giữa thông tin sản phẩm và các nút
 
         // Tạo nút giảm số lượng
@@ -87,7 +87,7 @@ function displayCart() {
         total += item.price * item.quantity;
     });
 
-    cartTotalContainer.textContent = `Tổng cộng: $${total.toFixed(2)}`;
+    cartTotalContainer.textContent = `Tổng cộng: ₫${total.toFixed(3)}`;
 }
 
 // Hàm thêm sản phẩm vào giỏ hàng
