@@ -8,6 +8,7 @@ const product = {
 // Khởi tạo giỏ hàng từ localStorage hoặc một mảng trống nếu chưa có giỏ hàng
 let cart = JSON.parse(localStorage.getItem('cart')) || [];
 
+
 // Hàm cập nhật nội dung sản phẩm trong HTML
 function updateProductInfo(product) {
     const productImage = document.getElementById('product-image');
@@ -47,7 +48,7 @@ function displayCart() {
         const img = document.createElement('img');
         img.src = item.image;
         img.alt = item.name;
-        img.style.width = "50px"; // Điều chỉnh kích thước hình ảnh
+        img.style.width = "100px"; // Điều chỉnh kích thước hình ảnh
         img.style.marginRight = "10px"; // Khoảng cách giữa hình ảnh và văn bản
 
         // Tạo phần tử tên, giá và số lượng sản phẩm
