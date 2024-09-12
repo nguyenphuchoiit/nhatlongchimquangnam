@@ -2,7 +2,7 @@
 const product = {
     image: "images/products/product-3.jpg",
     name: "Lồng chim hút mật nhật Quảng Nam",
-    price: 1499.000
+    price: 2700.000
 };
 
 // Khởi tạo giỏ hàng từ localStorage hoặc một mảng trống nếu chưa có giỏ hàng
