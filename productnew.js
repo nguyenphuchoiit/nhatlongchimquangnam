@@ -4,23 +4,23 @@ const products = [
         price: "2,700.000 VND",
         availability: "In Stock",
         imageUrl: "images/products/longhutmat.jpg",
-        features: ["Speed: 750 RPM", "Power Source: Cordless-Electric", "Battery Cell Type: Lithium", "Voltage: 20 Volts", "Battery Capacity: 2 Ah"],
-        rating: "11 Đánh giá"
+        features: ["Chiều Dài: 25cm", "Chiều Rộng: 25cm", "Chiều cao: 37cm", "Chất liệu: Tre già và Gỗ Mun vs Gỗ trắc", "Kỹ Thuật: Máy tiện và đan tay"],
+        rating: "110 Đánh giá"
     },
     {
         name: "Xiên chuối lồng chim chào mào và khuyên hàng víp",
         price: "5.000 - 12.000 VND",
         availability: "In Stock",
         imageUrl: "images/products/xienchuoi.jpg",
-        features: ["Speed: 750 RPM", "Power Source: Cordless-Electric", "Battery Cell Type: Lithium", "Voltage: 20 Volts", "Battery Capacity: 2 Ah"],
-        rating: "110 Đánh giá"
+        features: ["Chiều Dài: 3cm", "Chiều Rộng: 3cm", "Chiều cao: 3cm", "Chất liệu: Tre già và Gỗ Mun vs Gỗ trắc", "Kỹ Thuật: Máy tiện và đan tay"],
+        rating: "70 Đánh giá"
     },
     {
         name: "Cống sương chim hút mật chim khuyên",
         price: "150.000 - 200.000 VND",
         availability: "In Stock",
         imageUrl: "images/products/congxuong.jpg",
-        features: ["Speed: 750 RPM", "Power Source: Cordless-Electric", "Battery Cell Type: Lithium", "Voltage: 20 Volts", "Battery Capacity: 2 Ah"],
+        features: ["Chiều Dài: 4cm", "Chiều Rộng: 4cm", "Chiều cao: 4cm", "Chất liệu: Tre già và Gỗ Mun vs Gỗ trắc", "Kỹ Thuật: Máy tiện và đan tay"],
         rating: "55 Đánh giá"
     },
     {
@@ -28,7 +28,7 @@ const products = [
         price: "40.000 - 95.000 VND",
         availability: "In Stock",
         imageUrl: "images/products/docau.jpg",
-        features: ["Speed: 750 RPM", "Power Source: Cordless-Electric", "Battery Cell Type: Lithium", "Voltage: 20 Volts", "Battery Capacity: 2 Ah"],
+        features: ["Chiều Dài: 7cm", "Chiều Rộng: 4cm", "Chiều cao: 7cm", "Chất liệu: Tre già và Gỗ Mun vs Gỗ trắc", "Kỹ Thuật: Máy tiện và đan tay"],
         rating: "60 Đánh giá"
     },
     {
@@ -36,7 +36,7 @@ const products = [
         price: "150.000 - 300.000 VND",
         availability: "In Stock",
         imageUrl: "images/products/nambau.jpg",
-        features: ["Speed: 750 RPM", "Power Source: Cordless-Electric", "Battery Cell Type: Lithium", "Voltage: 20 Volts", "Battery Capacity: 2 Ah"],
+        features: ["Chiều Dài: 3cm", "Chiều Rộng: 3cm", "Chiều cao: 3cm", "Chất liệu: Tre già và Gỗ Mun vs Gỗ trắc", "Kỹ Thuật: Máy tiện và đan tay"],
         rating: "20 Đánh giá"
     },
     {
@@ -44,7 +44,7 @@ const products = [
         price: "5.000 - 12.000 VND",
         availability: "In Stock",
         imageUrl: "images/products/xientraicay.jpg",
-        features: ["Speed: 750 RPM", "Power Source: Cordless-Electric", "Battery Cell Type: Lithium", "Voltage: 20 Volts", "Battery Capacity: 2 Ah"],
+        features: ["Chiều Dài: 3cm", "Chiều Rộng: 3cm", "Chiều cao: 3cm", "Chất liệu: Tre già và Gỗ Mun vs Gỗ trắc", "Kỹ Thuật: Máy tiện và đan tay"],
         rating: "30 Đánh giá"
     },
     // Add more products here
