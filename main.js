@@ -81,7 +81,7 @@ document.querySelector('#frm').onsubmit = function(e){
         let xhr = new XMLHttpRequest();
         xhr.open("POST", "https://docs.google.com/forms/u/0/d/e/1FAIpQLSdcFweV5_8pN0OSNrq6qMBi4igrg3ej79DSK4ITsqiFcz-rkA/formResponse", true);
         xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-        message_Oj.innerHTML = '<div class="alert alert-success text-center ">Cảm ơn bạn đăng ký thành công</div>';
+        message_Oj.innerHTML = '<div class="alert alert-success text-center ">Cảm ơn bạn gửi thành công cửa hàng sẽ liên hệ lại cho bạn</div>';
         //reset field sau khi submit
         fullNameOj.value ='';
         ContactnumberOj.value ='';
